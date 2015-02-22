@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='C:/xp-dev/cz.webcom.usa/trunk'
+let g:netrw_dirhist_2='C:/xp-dev/cz.webcom.usa'
+let g:netrw_dirhist_3='C:/xp-dev'
+let g:netrw_dirhist_4='C:'
+let g:netrw_dirhist_5='C:\xp-dev\cz.webcom.usa\trunk\doc'
+let g:netrw_dirhist_6='C:/xp-dev/cz.webcom.usa/trunk/doc'
+let g:netrw_dirhist_7='C:/xp-dev/cz.webcom.usa/trunk'
+let g:netrw_dirhist_8='C:/xp-dev/cz.webcom.usa/trunk/views'
