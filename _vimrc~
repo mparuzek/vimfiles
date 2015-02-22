@@ -309,6 +309,7 @@ let $TMP="c:/temp"
 map <F12> :NERDTreeToggle<CR>
 :nnoremap <Leader>nu :set nu!<CR>
 
+
 :set foldcolumn=3
 :hi foldcolumn ctermbg=0
 hi LineNr ctermfg=8 guifg=DarkGray
