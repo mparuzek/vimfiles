@@ -33,8 +33,6 @@ function MyDiff()
    endif
 endfunction
 
-
-
 if has('gui_running')
     set guifont=Consolas:h10:cEASTEUROPE
 endif
@@ -48,7 +46,6 @@ set viminfo='50,\"500
 set history=50
 
 noremap <C-Q>       <C-V>
-
 
 " Vzhled
 " Zapnuti barevne syntaxe v gui a terminalech ktere maji barvy
