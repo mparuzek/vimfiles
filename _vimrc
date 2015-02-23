@@ -93,7 +93,6 @@ filetype plugin on
 set smartindent
 set cmdheight=2     " prikazovy radek o velikosti dva radky
 set showcmd         " ukazuje se zadavani prikazu v prik. radku
-set guioptions-=T   " v gui se vypne lista nastroju
 set wildmenu
 " nastaveni tabelatoru
 set tabstop=4
@@ -309,3 +308,11 @@ map <F12> :NERDTreeToggle<CR>
 :set foldcolumn=3
 :hi foldcolumn ctermbg=0
 hi LineNr ctermfg=8 guifg=DarkGray
+
+" nogui
+:set guioptions-=m  "remove menu bar
+:set guioptions-=T  "remove toolbar
+:set guioptions-=r  "remove right-hand scroll bar
+:set guioptions-=L  "remove left-hand scroll bar
+
+
